@@ -1,0 +1,20 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Facebook Feed</title>
+</head>
+<body>
+<h3>Profile:</h3>
+
+
+<div th:each="user:${userProfile}">
+    
+  	first name: <b th:text="${user.firstName}"></b><br>
+  	last name: <b th:text="${user.lastName}"></b><br>
+  	gender: <b th:text="${user.gender}"></b><br>
+    birthday: <b th:text="${user.birthday}"></b><br>
+    email: <b th:text="${user.email}"></b>
+    
+    <hr/>
+</div>
+</body>
+</html>

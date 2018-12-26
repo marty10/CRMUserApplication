@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: PC_Pasquale
+Build-Jdk: 11.0.1
+Implementation-Title: stackabuse
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.stackabuse
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/stackabuse/
+Created-By: Maven Integration for Eclipse
+
